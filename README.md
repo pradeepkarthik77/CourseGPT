@@ -8,6 +8,6 @@ A Deep-Learning based Course Recommendation System that recommends Courses based
 * To tackle the discussed problem, We suggest using a recommendation system where the user can come in and type his interest and what type of course he is looking for and his expected outcomes from the course.
 * Based on the detailed Description, we Intent to analyze the likeliness between the user’s description and the Course Descriptions and other parameters of the available courses to suggest the most relevant course to the user.
 ### Basic Working:
-* Pre-process the Course Descriptions to remove stop-words and other irrelvent information and then create Word Embeddings of the Course Descriptions using the Pre-trained BERT model from Google/
+* Pre-process the Course Descriptions to remove stop-words and other irrelvent information and then create Word Embeddings of the Course Descriptions using the Pre-trained BERT model from Google
 * Once the user enters the prompt, pre-process the prompt and create a Word Embeddings of the prompt using the Pre-trained BERT model from Google.
 * Find the Cosine Similarity between the prompt and course Description to recommend the most-relevent courses
